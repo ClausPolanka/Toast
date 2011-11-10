@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Emergency
+Bundle-SymbolicName: toast.client.emergency
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: toast.dev.airbag;bundle-version="1.0.0",
+ toast.dev.gps;bundle-version="1.0.0",
+ org.eclipse.osgi;bundle-version="3.7.1"
+Bundle-Activator: toast.client.emergency.Activator
