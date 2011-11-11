@@ -39,6 +39,7 @@ public class AirbagFake implements Airbag {
                 return Status.OK_STATUS;
             }
         };
+        job.schedule(5000);
     }
 
     public void deploy() {

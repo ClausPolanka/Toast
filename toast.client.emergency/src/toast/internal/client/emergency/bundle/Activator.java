@@ -1,4 +1,4 @@
-package toast.client.emergency;
+package toast.internal.client.emergency.bundle;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
@@ -6,9 +6,9 @@ import org.osgi.framework.ServiceReference;
 
 import toast.dev.airbag.Airbag;
 import toast.dev.gps.Gps;
+import toast.internal.client.emergency.EmergencyMonitor;
 
 public class Activator implements BundleActivator {
-    private EmergencyMonitor em;
     private ServiceReference<?> gpsRef;
     private ServiceReference<?> airbagRef;
     private Gps gps;

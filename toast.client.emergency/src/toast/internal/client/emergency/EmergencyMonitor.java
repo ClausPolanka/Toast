@@ -1,4 +1,4 @@
-package toast.client.emergency;
+package toast.internal.client.emergency;
 
 import static java.lang.String.format;
 import toast.dev.airbag.Airbag;
