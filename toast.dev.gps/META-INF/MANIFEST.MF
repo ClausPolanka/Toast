@@ -5,3 +5,5 @@ Bundle-SymbolicName: toast.dev.gps
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: toast.dev.gps
+Bundle-Activator: toast.internal.dev.gps.fake.bundle.Activator
+Import-Package: org.osgi.framework;version="1.6.0"
